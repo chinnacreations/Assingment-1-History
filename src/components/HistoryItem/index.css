@@ -1,0 +1,46 @@
+.list-con {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  flex-shrink: 2;
+}
+.image {
+  height: 24px;
+  width: 24px;
+  margin-right: 50px;
+}
+.delete-icon {
+  height: 24px;
+  width: 24px;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.desc {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #475569;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+.title {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 500;
+  margin-right: 50px;
+}
+.domain {
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #475569;
+  margin-right: 50px;
+}
